@@ -8,7 +8,6 @@ if ($result->num_rows > 0) {
         echo "<tr>
                 <td>{$row['id']}</td>
                 <td>{$row['nome']}</td>
-                <td>{$row['email']}</td>
                 <td>{$row['senha']}</td>
                 
                 <td>
