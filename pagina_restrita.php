@@ -1,3 +1,25 @@
+<?php
+
+session_start();
+
+// Verifica se o usuário está autenticado
+if (!isset($_SESSION['id_usuario'])) {
+    // Se não estiver autenticado, redireciona para a tela de login
+    header("Location: login.php");
+    exit();
+}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+</head>
+<body>
+    <h1>Bem-vindo, <?php echo $_SESSION['nome']; ?>!</h1>
+
 <!DOCTYPE html>
 <html>
 <head>

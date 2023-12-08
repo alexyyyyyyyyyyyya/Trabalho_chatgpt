@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -21,7 +21,6 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 300px;
         }
 
         label {
@@ -44,25 +43,20 @@
             border-radius: 4px;
             cursor: pointer;
         }
-
-        .signup-link {
-            display: block;
-            text-align: center;
-            margin-top: 10px;
-        }
     </style>
 </head>
 <body>
-    <form action="processa_login.php" method="post">
+    <form action="cadastro.php" method="post">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
         <label for="senha">Senha:</label>
         <input type="password" id="senha" name="senha" required>
 
-        <button type="submit">Entrar</button>
-
-        <a href="index.php" class="signup-link">Não possui conta? Cadastre-se aqui.</a>
+        <button type="submit">Cadastrar</button>
     </form>
 </body>
 </html>

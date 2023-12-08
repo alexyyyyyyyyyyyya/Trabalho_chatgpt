@@ -105,6 +105,17 @@ input[type="submit"]:hover {
 </head>
 <body>
 
+    <!-- Botão de Voltar -->
+<button onclick="goBack()" style="position: fixed; top: 20px; left: 20px; padding: 10px; background-color: #333; color: #fff; border: none; cursor: pointer;">Voltar</button>
+
+<script>
+    // Função para voltar à página anterior
+    function goBack() {
+        window.history.back();
+    }
+</script>
+
+
     <div class="container">
         <h1>Motos</h1>
 
