@@ -1,0 +1,12 @@
+1- crie um index que seja uma tela de cadastro com os campos: nome, email e senha (jota)
+2-ok, agora faça o php com esses dados indo para o banco de dados, por favor. (jota)
+3-refaça, considere que na tabela usuarios eu tenho: id_usuario, nome, email e senha (jota)
+4-ok, agora ao fazer o cadastro faça o usuário ir para a tela de login (jota)
+5-agora faça uma tela de login que utilize do email e a senha para realizar o acesso (alexya)
+6-faça uma sessão para que quem não seja cadastrado no banco não entre no sistema (alexya)
+7-verifique qual erro está acontecendo (alexya)
+8-faça com que os dados das variaveis usuario_valido e senha_valida sejam os dados do login do usuário (alexya)
+9-ajuste o css dessa página e faça com que tenha um botão com o link para a página de cadastro no caso de não possuir conta (alexya)
+10-ajuste para deixar esse link dentro da caixa de login (alexya)
+11-coloque um botão de voltar no canto superior esquerdo (jota)
+     
